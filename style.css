@@ -1,0 +1,229 @@
+body{
+background:#0a0a0a;
+color:white;
+font-family: 'Poppins', sans-serif;
+scroll-behavior:smooth;
+}
+
+.navbar{
+background:#000;
+}
+
+.logo{
+color:#ff7a00;
+font-weight:700;
+font-size:22px;
+}
+
+.nav-link{
+color:#ccc;
+margin-left:20px;
+}
+
+.nav-link:hover{
+color:#ff7a00;
+text-shadow:0 0 10px #ff7a00;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+
+/* lighter overlay */
+background:
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)),
+url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+color:white;
+position:relative;
+}
+.hero h1{
+font-size:60px;
+font-weight:700;
+}
+
+.highlight{
+color:#ff7a00;
+text-shadow:0 0 1px #ff7a00;
+}
+
+.typing{
+color:#ff7a00;
+margin-top:10px;
+}
+.hero::after{
+content:"</> { } const function =>";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+color:rgba(255,122,0,0.05);
+font-size:80px;
+display:flex;
+align-items:center;
+justify-content:center;
+pointer-events:none;
+}
+
+.highlight{
+color:#ff7a00;
+}
+
+.hero-buttons{
+margin-top:20px;
+}
+
+.btn-orange{
+background:linear-gradient(45deg,#ff7a00,#ff9a2a);
+border:none;
+color:white;
+}
+
+.btn-orange:hover{
+box-shadow:0 0 15px #ff7a00;
+}
+
+/* Sections */
+
+.section{
+padding:100px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:60px;
+color:#ff7a00;
+}
+
+.dark{
+background:#111;
+}
+
+/* Profile */
+
+.profile{
+height: 250px;
+width: 250px;
+border-radius:50%;
+border:3px solid #ff7a00;
+}
+
+/* Code Card */
+
+.code-card{
+background:#0f0f0f;
+padding:25px;
+border-left:4px solid #ff7a00;
+}
+
+/* Skills */
+
+.skill-card{
+background:#0f0f0f;
+padding:30px;
+text-align:center;
+border-radius:10px;
+transition:0.3s;
+}
+
+.skill-card i{
+font-size:40px;
+color:#ff7a00;
+}
+
+.skill-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 15px #ff7a00;
+}
+
+/* Projects */
+
+.project-card{
+background:#0f0f0f;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+}
+
+.project-card img{
+width:100%;
+}
+
+.project-card:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px #ff7a00;
+}
+
+.project-info{
+padding:20px;
+}
+
+/* Code box */
+
+.code-box{
+background:#000;
+padding:30px;
+font-size: 30px;
+border-radius:10px;
+color:#ff7a00;
+}
+
+/* Contact */
+
+form input,
+form textarea{
+background:#111;
+border:1px solid #333;
+color:white;
+margin-bottom:15px;
+padding:12px;
+}
+
+form input:focus,
+form textarea:focus{
+border-color:#ff7a00;
+box-shadow:none;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:30px;
+background:#000;
+}
+
+.social i{
+margin:10px;
+font-size:20px;
+cursor:pointer;
+}
+
+.social i:hover{
+color:#ff7a00;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#ff7a00;
+}
+img{
+max-width:100%;
+height:auto;
+display:block;
+}
